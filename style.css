@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    
+}
+
+.cabecalho {
+    width: 100%;
+    height: 505px;
+    background-color:rgb(29, 28, 28);
+    
+}
+
+.fotos {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.foto1 {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.foto3 {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.cabecalho2 {
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    align-items: center;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.fotoperfil {
+    width: 30px;
+    height: 30px;
+    
+}
