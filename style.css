@@ -28,7 +28,7 @@ h2 {
     margin-right: 20px;
 }
 
-.cabecalho {
+#cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,7 +49,18 @@ h2 {
     gap: 32px;
     align-items: center;
     font-family: 'Merriweather', serif;
+    text-decoration: none;
 }
+
+.estilotexto {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    color: white;
+}
+
+
+
 
 .conteudo-principal {
     display: flex;
@@ -82,7 +93,7 @@ h2 {
     padding:15px;
     margin: 15px;
 }
-.perfil {
+#perfil {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -106,7 +117,7 @@ p {
     margin: 35px;
 }
 
-.portifolio {
+#portfolio {
     text-align:center;
     align-items:center;
     display: flex;
@@ -147,4 +158,26 @@ p {
 
 .rodape {
     background-color: rgb(199, 193, 193);
+    text-decoration: none;
+    color: black;
 }
+
+
+
+
+html {
+    scroll-behavior: smooth;
+    
+  }
+
+  .topo{
+    text-align:center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    color: black;  
+  }
