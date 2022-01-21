@@ -66,24 +66,33 @@ h2 {
 
 
 .conteudo-principal {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    
 }
 
 
-.fotos1{
+.fotosgrandes{
     display: flex;
-    align-items: center;
     width: 500px;
     height: 500px;
 }
 
-
-
-
-
-.fotos {
+.fotos1 {
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
+
+.fotos2 {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.fotos3 {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
